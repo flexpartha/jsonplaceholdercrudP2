@@ -81,6 +81,7 @@ export class EdituserComponent implements OnInit {
       company: this.editForm.value.company,
     };
     console.log('User:::---', user);
+    console.log('User:::---$$$$$$$$$$$$$$$$$$$$$#################');
     //this.store.dispatch(updateUsers({user}));
     this.appstateService.updateUsers(user);
     this.router.navigate(['/userList']);
